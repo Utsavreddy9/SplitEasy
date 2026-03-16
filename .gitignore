@@ -1,5 +1,6 @@
 ### CSCI 6656/4556 .gitignore file ###
 GoogleService-Info.plist
+Info.plist
 
 # Created by https://www.gitignore.io/api/xcode,swift,firebase,cocoapods
 # Edit at https://www.gitignore.io/?templates=xcode,swift,firebase,cocoapods
