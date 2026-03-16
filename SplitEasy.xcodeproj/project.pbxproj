@@ -7,11 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4524CDD22F6372E1003DB752 /* GoogleService-Info(1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 4524CDD12F6372E1003DB752 /* GoogleService-Info(1).plist */; };
 		4524CDDD2F637530003DB752 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 4524CDDC2F637530003DB752 /* GoogleSignIn */; };
 		4524CDDF2F637530003DB752 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4524CDDE2F637530003DB752 /* GoogleSignInSwift */; };
-		4524CDE12F644527003DB752 /* client_105223208351-2j1nl2fbmhlhc8s5ebi41ooqjfctj84s.apps.googleusercontent.com .plist in Resources */ = {isa = PBXBuildFile; fileRef = 4524CDE02F644527003DB752 /* client_105223208351-2j1nl2fbmhlhc8s5ebi41ooqjfctj84s.apps.googleusercontent.com .plist */; };
-		4524CE102F67D717003DB752 /* GoogleService-Infodelete.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4524CE0F2F67D717003DB752 /* GoogleService-Infodelete.plist */; };
 		4524CE132F67D875003DB752 /* FirebaseAI in Frameworks */ = {isa = PBXBuildFile; productRef = 4524CE122F67D875003DB752 /* FirebaseAI */; };
 		4524CE152F67D875003DB752 /* FirebaseAILogic in Frameworks */ = {isa = PBXBuildFile; productRef = 4524CE142F67D875003DB752 /* FirebaseAILogic */; };
 		4524CE172F67D875003DB752 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4524CE162F67D875003DB752 /* FirebaseAnalytics */; };
@@ -41,7 +38,6 @@
 /* Begin PBXFileReference section */
 		4524C2762F60C80B003DB752 /* SplitEasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitEasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4524CDD12F6372E1003DB752 /* GoogleService-Info(1).plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info(1).plist"; sourceTree = "<group>"; };
-		4524CDE02F644527003DB752 /* client_105223208351-2j1nl2fbmhlhc8s5ebi41ooqjfctj84s.apps.googleusercontent.com .plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "client_105223208351-2j1nl2fbmhlhc8s5ebi41ooqjfctj84s.apps.googleusercontent.com .plist"; sourceTree = "<group>"; };
 		4524CE0F2F67D717003DB752 /* GoogleService-Infodelete.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Infodelete.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,7 +102,6 @@
 		4524C26D2F60C80B003DB752 = {
 			isa = PBXGroup;
 			children = (
-				4524CDE02F644527003DB752 /* client_105223208351-2j1nl2fbmhlhc8s5ebi41ooqjfctj84s.apps.googleusercontent.com .plist */,
 				4524C2782F60C80B003DB752 /* SplitEasy */,
 				4524C2772F60C80B003DB752 /* Products */,
 			);
@@ -216,9 +211,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4524CDD22F6372E1003DB752 /* GoogleService-Info(1).plist in Resources */,
-				4524CDE12F644527003DB752 /* client_105223208351-2j1nl2fbmhlhc8s5ebi41ooqjfctj84s.apps.googleusercontent.com .plist in Resources */,
-				4524CE102F67D717003DB752 /* GoogleService-Infodelete.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
