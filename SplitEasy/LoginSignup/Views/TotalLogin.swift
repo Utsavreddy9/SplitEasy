@@ -28,7 +28,7 @@ struct TotalWelcomeView: View {
         NavigationStack {
             VStack(spacing: 0) {
                 
-                Spacer().frame(height: 95)
+                Spacer().frame(height: 90)
                 
                 Text("Welcome to\nsplitEasy")
                     .font(.system(size: 34, weight: .bold))
