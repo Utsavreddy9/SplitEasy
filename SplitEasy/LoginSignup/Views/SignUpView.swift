@@ -27,7 +27,7 @@ struct SignUpView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Color.blue
+                Color.white
                     .ignoresSafeArea()
                 
                 ScrollView(showsIndicators: false) {
