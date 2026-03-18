@@ -49,7 +49,7 @@ struct SignUpView: View {
                         }
                         
                         Spacer()
-                            .frame(height: 55)
+                            .frame(height: 50)
                         
                         VStack(spacing: 22) {
                             
