@@ -49,7 +49,7 @@ struct SignUpView: View {
                         }
                         
                         Spacer()
-                            .frame(height: 50)
+                            .frame(height: 55)
                         
                         VStack(spacing: 22) {
                             
@@ -235,7 +235,7 @@ struct SignUpView: View {
             return
         }
         
-        guard password.count >= 5 else {
+        guard password.count >= 6 else {
             signupError = "Password must be at least 6 characters."
             return
         }
