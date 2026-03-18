@@ -235,7 +235,7 @@ struct SignUpView: View {
             return
         }
         
-        guard password.count >= 6 else {
+        guard password.count >= 5 else {
             signupError = "Password must be at least 6 characters."
             return
         }
